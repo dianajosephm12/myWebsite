@@ -1,0 +1,58 @@
+<html>
+    <LINK REL=StyleSheet HREF="mainView.scss">
+<body style="margin: 0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="mainView.js"></script>
+    <div id="homepage" class="fullpage">
+        <div id="rectangle">
+            <h1>Hello, my name is <span class="bolded">Diana Joseph</span></h1>
+            <h3>What can I do for <b>you?</b></h3>
+
+            <img id="aboutImage" class = "img1"  src = "Images/aboutLowRes.png" alt:"HTML5 icon">
+            <img id="portfolioImage" class="imgStyle" src = "Images/portfolioImage.png" alt:"HTML5 icon" >
+            <img id="blogImage" class="imgStyle" src = "Images/blogImage.png" alt:"HTML5 icon">
+            <img id="contactImage" class="imgStyle" src = "Images/contactImage.png" alt:"HTML5 icon">
+
+            <p1 class="linkText1">About</p1>
+            <p2 class="linkText">Portfolio</p2>
+            <p3 class="linkText">Blog</p3>
+            <p4 class="linkText">Contact</p4>
+        </div>
+    </div>
+    
+    <div id ="aboutPage" class = "fullpage">
+        <h4 class="header">About Me.</h4>
+        <p class="basictext">Originally from Chicago (well, the suburbs), I’m now a student at <span class="colored">Duke University</span>, majoring in <span class="colored">Computer Science</span> and minoring in <span class="colored">Chemistry</span> and <span class="colored">Visual and Media Studies</span>. I enjoy <span class="colored">creating</span> - whether that’s using Java, HTML, JavaScript, Objective-C, Python, InDesign, Premiere, Final Cut, pen or <span class="colored">pencil</span>. My greatest inspirations in life are <span class="colored">Ferris Bueller</span> and, of course, my <span class="colored">family</span>. In my spare time I like to dance, run and read.<br />
+        <br />
+        I made this website to compile some of my favorite pieces and to challenge myself. <span class="colored" style="color: var(--yellow-color)">Happy browsing :)</span></p>
+        <img class = "initials"  src = "Images/initials.png" alt:"HTML5 icon">
+    </div>
+    
+    <div id="portfolioPage" class ="fullpage"> 
+        <div id="rectangle">
+            <h5 style="color: var(--purple-color)">Portfolio.</h5>
+            <div id="innersquare">
+                <div class="watchCircle circle" onclick="selected(this)">
+                    <p class = "circleText" style="color:var(--purple-color);margin-left:33px">Watch</p>
+                </div>
+                <div class="readCircle circle" onclick="selected(this)">
+                    <p class="circleText" style="color:white">Read</p>
+                </div>
+                <div class="listenCircle circle" onclick="selected(this)">
+                    <p class = "circleText" style="color:white;margin-left:32px">Listen</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="blogPage" class = "fullpage">
+        <div class="linesContainer">
+            <img class = "lines"  src = "Images/blogLines.png" alt:"HTML5 icon">
+        </div>
+    </div>
+    
+    <div id="contactPage" class = "fullpage">
+        <h4 class="header" style="color: var(--blue-color)">Let's Get in Touch.</h4>
+    </div>
+    
+</body>
