@@ -1,0 +1,245 @@
+html{
+}
+
+:root{
+    --yellow-color: rgb(238,168,32);
+    --purple-color: rgb(120,29,68);
+    --blue-color: rgb(197, 229, 242);
+}
+
+.fullpage{
+    position: auto;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*homepage*/
+#homepage{
+    background-color: var(--blue-color);
+    position: relative;
+}
+#rectangle{
+    position:relative;
+    display: inline-block;
+    border-style:solid;
+    width: 95vw;
+    height: 89vh;
+    border-width: 6px;
+    border-color: white;
+    margin:5vh 2vw 5vh 2vw;
+}
+
+h1{
+    color: rgb(61, 61, 61);
+    font-size: 45pt;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 100;
+    margin-top: 10vh;
+}
+.bolded{
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 28pt;
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    color: rgb(61,61,61);
+    margin-left: 100;
+    margin-top: -2vh;
+    margin-bottom: 12vh;
+}
+
+.imgStyle {
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+    margin-left:50px;
+    transition: width 0.5s, height 0.5s, margin 0.5s;
+}
+
+.imgStyle:hover{
+    width: 262px;
+    height: 262px;
+    margin: -16px -16px -16px 34px;
+}
+
+.img1 {
+    width: 230px;
+    height: 230px;
+    margin-left:90px;
+    transition: width 0.5s, height 0.5s, margin 0.5s, transform 0.5s ease-in-out;
+    display: inline-block;
+}
+
+.img1:hover{
+    width: 262px;
+    height: 262px;
+    margin: -16px -16px -16px 74px;
+}
+
+
+.linkText {
+    width: 230px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 24pt;
+    display: inline-block;
+    padding-bottom: 10vh;
+}
+
+.linkText1 {
+    width: 230px;
+    margin-left: 95px;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 24pt;
+    display: inline-block;
+}
+
+/*about page*/
+
+#aboutPage{
+    background-color: white;
+    position: relative;
+
+}
+
+.basictext{
+    position: absolute;
+    color: rgb(61,61,61);
+    font-size: 23;
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    margin-top: 200;
+    margin-left: 140;
+    margin-right: 140;
+}
+.header{
+    position: absolute;
+    color: var(--yellow-color);
+    font-size: 45pt;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 140;
+    margin-top: 100;
+}
+
+.colored{
+    font-weight: bold;
+    color: var(--purple-color);
+}
+
+.initials {
+    position: absolute;
+    top: 400px;
+    left: 60vw;
+    width: 350px;
+    height: 250px;
+}
+/*portfolio page*/
+
+#portfolioPage{
+    background-color: var(--yellow-color);
+    z-index: 2;
+}
+
+h5{
+    font-size: 45pt;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 100;
+    margin-top: 4vh;
+}
+
+.readCircle{
+    border: 7px solid var(--blue-color);
+    background-color: var(--purple-color);
+    margin-left: 38vw;
+    margin-top: -40vh;
+}
+
+//#readCircle:hover{
+//    transform: translate(100px, 100px);
+//}
+
+.watchCircle {
+    border: 7px solid var(--yellow-color);
+    background-color: var(--blue-color);
+    margin-left: 30vw;
+    margin-top: 25vh;
+}
+
+.listenCircle {
+    border: 7px solid var(--purple-color);
+    background-color: var(--yellow-color);
+    margin-left: 42vw;
+    margin-top: 1vh;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: width 2s, height 2s, margin-left 2s, margin-top 2s;
+}
+
+ .selected {
+    margin-left: 1vw;
+    margin-top: -36vh;
+}
+
+.corner {
+    width: 80px;
+    height: 80px;
+}
+    
+
+#innersquare{
+    position:absolute;
+    background-color: white;
+    display: inline-block;
+    margin-top:15vh;
+    margin-left: -22vw;
+    height:69vh;
+    width: 89vw;
+}
+
+/*blog page*/
+#blogPage{
+    background-color: white;
+    position: relative;
+}
+.linesContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.lines {
+    top: -80px;
+    left: -50px;
+    position: relative;
+    width: 110%;
+    height: auto;
+}
+
+/*contact page*/
+#contactPage{
+    background-color: var(--purple-color);
+}
+.circleText {
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 24pt;
+    margin:55px 34px;
+}
+
+}
