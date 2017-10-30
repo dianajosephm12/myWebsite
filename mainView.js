@@ -15,6 +15,7 @@ $(document).ready(function(){
    $("p4, #contactImage").on('click',function(event){
        $("html, body").animate({ scrollTop: height*4 }, "slow");  
    })
+});
 
 function selected(el) {
     el = $(el);

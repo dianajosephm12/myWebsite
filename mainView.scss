@@ -23,6 +23,8 @@ html{
     display: inline-block;
     border-style:solid;
     width: 95vw;
+    min-width: 1200px;
+    min-height: 600px;
     height: 89vh;
     border-width: 6px;
     border-color: white;
@@ -107,6 +109,8 @@ h3 {
 #aboutPage{
     background-color: white;
     position: relative;
+    min-width: 1200px;
+    min-height: 600px;
 
 }
 
@@ -119,6 +123,7 @@ h3 {
     margin-top: 200;
     margin-left: 140;
     margin-right: 140;
+    z-index: 1;
 }
 .header{
     position: absolute;
@@ -139,9 +144,10 @@ h3 {
 .initials {
     position: absolute;
     top: 400px;
-    left: 60vw;
+    right: 200px;
     width: 350px;
     height: 250px;
+    z-index: 0;
 }
 /*portfolio page*/
 
@@ -217,29 +223,45 @@ h5{
     background-color: white;
     position: relative;
 }
+.wrapper{
+    top: 150px;
+    left: 500px;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+}
 .linesContainer {
     width: 100%;
+    min-width: 1300px;
     height: 100%;
     position: relative;
     overflow: hidden;
 }
 .lines {
-    top: -80px;
-    left: -50px;
+    top: -20px;
+    left: -25px;
     position: relative;
-    width: 110%;
+    width: 100%;
     height: auto;
 }
 
 /*contact page*/
 #contactPage{
     background-color: var(--purple-color);
+    min-width: 1300px;
+    min-height: 600px;
 }
 .circleText {
     text-align: center;
     font-family: "Helvetica Neue";
     font-size: 24pt;
     margin:55px 34px;
+}
+.subheader {
+    font-size: 28pt;
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    color: var(--blue-color);
 }
 
 }
