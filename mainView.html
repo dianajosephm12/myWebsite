@@ -1,5 +1,6 @@
-<html>
-    <LINK REL=StyleSheet HREF="mainView.scss">
+<html lang="en">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel=StyleSheet HREF="mainView.scss">
 <body style="margin: 0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="mainView.js"></script>
@@ -31,6 +32,33 @@
     <div id="portfolioPage" class ="fullpage"> 
         <div id="rectangle">
             <h5 style="color: var(--purple-color)">Portfolio.</h5>
+            <div id="carouselExampleIndicators" class="carousel slide slider" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="..." alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="..." alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="..." alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+<!--
             <div id="innersquare">
                 <div class="watchCircle circle" onclick="selected(this)">
                     <p class = "circleText" style="color:var(--purple-color);margin-left:33px">Watch</p>
@@ -42,6 +70,7 @@
                     <p class = "circleText" style="color:white;margin-left:32px">Listen</p>
                 </div>
             </div>
+-->
         </div>
     </div>
     
@@ -57,7 +86,19 @@
     
     <div id="contactPage" class = "fullpage">
         <h class="header" style="color: var(--blue-color)">Let's Get in Touch.</h>
-        <h class="subheader">Find me on LinkedIn <a href="https://www.linkedin.com/in/diana-joseph/" target="_blank">here</a> or send me a message below.</h>
+        <h class="subheader">Find me on LinkedIn <a href="https://www.linkedin.com/in/diana-joseph/" target="_blank" style="color: var(--blue-color) font-weight: bold">here</a> or send me a message below.</h>
+        <form class = "emailForm" action="mailto:dianajosephm12@gmail.com" method="post" enctype="text/plain">
+            <br>
+            <input class="formInput name" type="text" name="name" placeholder="Name"><br>
+            <br>
+            <input class="formInput" type="text" name="mail" placeholder="Email Address"><br>
+            <br>
+            <input class="formInput message" type="text" name="comment" placeholder = "Message"><br><br>
+            <input class="submit" type="submit" value="Submit">
+        </form>
     </div>
-    
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> 
 </body>
+</html>

@@ -120,9 +120,9 @@ h3 {
     font-size: 23;
     font-family: "Helvetica Neue";
     font-weight: normal;
-    margin-top: 200;
-    margin-left: 140;
-    margin-right: 140;
+    margin-top: 200px;
+    margin-left: 140px;
+    margin-right: 140px;
     z-index: 1;
 }
 .header{
@@ -132,8 +132,8 @@ h3 {
     font-family: "Helvetica Neue";
     font-weight: bold;
     display: inline-block;
-    margin-left: 140;
-    margin-top: 100;
+    margin-left: 140px;
+    margin-top: 100px;
 }
 
 .colored{
@@ -163,6 +163,13 @@ h5{
     display: inline-block;
     margin-left: 100;
     margin-top: 4vh;
+}
+
+.slider{
+    width: 900px;
+    height: 500px;
+    display: box;
+    flex-align: center;
 }
 
 .readCircle{
@@ -262,6 +269,45 @@ h5{
     font-family: "Helvetica Neue";
     font-weight: normal;
     color: var(--blue-color);
+    margin-left: 140px;
+    margin-top: 180px;
+    position: absolute;
+}
+.emailForm {
+    margin-left: 140px;
+    margin-top: 230px;
+    position: absolute;
+}
+.formInput {
+    background-color: var(--purple-color);
+    border-color: var(--yellow-color);
+    width: 500px;
+    padding: 5px;
+    border-style: solid;
+}
+.name {
+    @extend .formInput;
+    width: 400px;
+}
+.message {
+    @extend .formInput;
+    width: 1000px;
+    height: 250px;
+    padding-bottom: 220px;
 }
 
+.submit {
+    background-color: var(--purple-color);
+    border-color: var(--yellow-color);
+    border-width: medium;
+    padding: 5px;
+    border-style: solid;
+}
+
+input, select, textarea{
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    color: var(--blue-color);
+    vertical-align: text-top;
 }
