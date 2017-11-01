@@ -164,55 +164,67 @@ h5{
     margin-left: 100;
     margin-top: 4vh;
 }
+.sliderWrapper {
+    display: flex;
+    justify-content: center;
+}
 
 .slider{
     width: 900px;
-    height: 500px;
-    display: box;
-    flex-align: center;
+    height: 400px;
+    top: 50px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.readCircle{
-    border: 7px solid var(--blue-color);
-    background-color: var(--purple-color);
-    margin-left: 38vw;
-    margin-top: -40vh;
+.sliderImage {
+    vertical-align: middle;
+    height: 400px;
+    width: 100%;
 }
+
+//.readCircle{
+//    border: 7px solid var(--blue-color);
+//    background-color: var(--purple-color);
+//    margin-left: 38vw;
+//    margin-top: -40vh;
+//}
 
 //#readCircle:hover{
 //    transform: translate(100px, 100px);
 //}
 
-.watchCircle {
-    border: 7px solid var(--yellow-color);
-    background-color: var(--blue-color);
-    margin-left: 30vw;
-    margin-top: 25vh;
-}
-
-.listenCircle {
-    border: 7px solid var(--purple-color);
-    background-color: var(--yellow-color);
-    margin-left: 42vw;
-    margin-top: 1vh;
-}
-
-.circle{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    transition: width 2s, height 2s, margin-left 2s, margin-top 2s;
-}
-
- .selected {
-    margin-left: 1vw;
-    margin-top: -36vh;
-}
-
-.corner {
-    width: 80px;
-    height: 80px;
-}
+//.watchCircle {
+//    border: 7px solid var(--yellow-color);
+//    background-color: var(--blue-color);
+//    margin-left: 30vw;
+//    margin-top: 25vh;
+//}
+//
+//.listenCircle {
+//    border: 7px solid var(--purple-color);
+//    background-color: var(--yellow-color);
+//    margin-left: 42vw;
+//    margin-top: 1vh;
+//}
+//
+//.circle{
+//    border-radius: 50%;
+//    width: 150px;
+//    height: 150px;
+//    transition: width 2s, height 2s, margin-left 2s, margin-top 2s;
+//}
+//
+// .selected {
+//    margin-left: 1vw;
+//    margin-top: -36vh;
+//}
+//
+//.corner {
+//    width: 80px;
+//    height: 80px;
+//}
     
 
 #innersquare{
