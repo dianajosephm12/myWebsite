@@ -184,6 +184,25 @@ h5{
     width: 100%;
 }
 
+.sliderH {
+    color: rgb(61, 61, 61);
+    font-size: 22pt;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+}
+
+.sliderP {
+    color: rgb(61, 61, 61);
+    font-size: 12pt;
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+}
+
+.altSliderP {
+    @extend .sliderP;
+    color: white;
+}
+
 //.readCircle{
 //    border: 7px solid var(--blue-color);
 //    background-color: var(--purple-color);
